@@ -1,0 +1,35 @@
+body {
+  background-color: var(--bs-body-bg);
+}
+
+.routine-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.routine-card:hover {
+  transform: scale(1.03);
+}
+
+#timerView {
+  display: none;
+}
+
+.timer-number {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.task-current {
+  background-color: #d1e7dd;
+  font-weight: 600;
+}
+
+.task-complete {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+#scheduleTableBody tr {
+  transition: background-color 0.4s ease, opacity 0.4s ease;
+}
