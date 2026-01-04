@@ -103,7 +103,7 @@ const routines = {
       { name: "Legs Agains wall - relax...", minutes: 3 },
     ],
   },
-    warmUp: {
+  warmUp: {
     title: "🍋‍🟩 Warm Up (Dynamic)",
     tasks: [
       { name: "Warm-up 1/8 - Arm Circles", minutes: 0.5 },
@@ -116,7 +116,7 @@ const routines = {
       { name: "Warm-up 8/8 - Jumping Jacks", minutes: 0.5 },
     ],
   },
-    coolDown: {
+  coolDown: {
     title: "🍓 Cool Downs (Static)",
     tasks: [
       { name: "Cool Down 1/10 - Upward Salute Hold", minutes: 0.5 },
@@ -602,3 +602,4 @@ function loadTheme() {
 loadTheme();
 populateRoutineMeta();
 loadState();
+
