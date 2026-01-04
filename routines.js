@@ -80,8 +80,8 @@ const routines = {
       { name: "Dry Hair", minutes: 8 },
     ],
   },
-  middayStretch: {
-    title: "🧍‍♂️ Midday Stretch",
+  fullBodyStretch: {
+    title: "🧍‍♂️ Full Body Stretch",
     tasks: [
       { name: "Neck Rolls", minutes: 0.5 },
       { name: "Chin Reductions", minutes: 0.5 },
@@ -100,7 +100,7 @@ const routines = {
       { name: "Squat stretch", minutes: 0.5 },
       { name: "Butterfly Hold", minutes: 0.75},
       { name: "Bended Knees Down", minutes: 0.75 },
-      { name: "Legs Agains wall - relax...", minutes: 3 },
+      { name: "Legs Against wall - relax...", minutes: 3 },
     ],
   },
   warmUp: {
@@ -602,4 +602,5 @@ function loadTheme() {
 loadTheme();
 populateRoutineMeta();
 loadState();
+
 
