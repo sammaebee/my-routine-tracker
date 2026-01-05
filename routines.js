@@ -103,6 +103,21 @@ const routines = {
       { name: "Legs Against wall - relax...", minutes: 3 },
     ],
   },
+  quickStretch: {
+    title: "🐢 Quick Stretch",
+    tasks: [
+      { name: "Neck Extension - All Directions", minutes: 0.5},
+      { name: "Chin Reductions", minutes: 0.5 },
+      { name: "Ear to Shoulder Pull Both Sides", minutes: 0.5 },
+      { name: "Shoulder Rolls", minutes: 0.5 },
+      { name: "Cactus Arms", minutes: 0.5 },
+      { name: "Full Body Bend Twists", minutes: 0.5 },
+      { name: "Hug Knees - Both Legs", minutes: 0.5 },
+      { name: "Standing Quad - Both Legs", minutes: 0.5 },
+      { name: "Butterfly Hold", minutes: 0.5},
+      { name: "Bended Knees Down", minutes: 0.5 },
+    ],
+  },
   warmUp: {
     title: "🍋‍🟩 Warm Up (Dynamic)",
     tasks: [
@@ -254,31 +269,31 @@ const routines = {
       { name: "Play a solo", minutes: 15 },
     ],
   },
-  drawing15: {
-    title: "✏️ drawing [15 min]",
+  drawing10: {
+    title: "✏️ drawing [10 min]",
     tasks: [
-      { name: "Warm Ups", minutes: 5 },
-      { name: "Caricature - Face 1", minutes: 2.5 },
-      { name: "Caricature - Face 2", minutes: 2.5 },
+      { name: "Warm Ups", minutes: 3 },
+      { name: "Caricature - Face 1", minutes: 2 },
+      { name: "Caricature - Face 2", minutes: 2 },
       { name: "Body Poses Study", minutes: 5 },
     ],
   },
   drawing30: {
     title: "✏️ drawing [30 min]",
     tasks: [
-      { name: "Warm Ups", minutes: 5 },
-      { name: "Caricature - Face 1", minutes: 2.5 },
-      { name: "Caricature - Face 2", minutes: 2.5 },
+      { name: "Warm Ups", minutes: 3 },
+      { name: "Caricature - Face 1", minutes: 2 },
+      { name: "Caricature - Face 2", minutes: 2 },
       { name: "Body Poses Study", minutes: 10 },
-      { name: "Face Study", minutes: 10 },
+      { name: "Face Study", minutes: 13 },
     ],
   },
   drawing45: {
     title: "✏️ drawing [45 min]",
     tasks: [
-      { name: "Warm Ups", minutes: 5 },
-      { name: "Caricature - Face 1", minutes: 2.5 },
-      { name: "Caricature - Face 2", minutes: 2.5 },
+      { name: "Warm Ups", minutes: 3 },
+      { name: "Caricature - Face 1", minutes: 2 },
+      { name: "Caricature - Face 2", minutes: 2 },
       { name: "Character Poses Sketches", minutes: 10 },
       { name: "Face Study", minutes: 10 },
       { name: "Animation Practice", minutes: 15 },
@@ -602,5 +617,6 @@ function loadTheme() {
 loadTheme();
 populateRoutineMeta();
 loadState();
+
 
 
